@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
+  <meta name="description" content="Internal homepage concept for Ideal Home Care Services. Not a live page.">
+  <title>Ideal Home Care Services | Homepage Concept</title>
+  <style>
+    :root{--red:#e6342a;--red-dark:#b9211c;--ink:#172126;--muted:#5e6a70;--cream:#f7f3ee;--white:#fff;--line:#e6e0da;--sage:#e9f0eb;--max:1180px;--shadow:0 18px 50px rgba(23,33,38,.12)}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;color:var(--ink);background:var(--white);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55} a{color:inherit} button,input,select,textarea{font:inherit}
+    .concept-bar{background:var(--ink);color:#fff;text-align:center;padding:8px 18px;font-size:12px;letter-spacing:.09em;text-transform:uppercase}
+    .topline{background:var(--red);color:#fff}.topline-inner,.nav-inner,.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}.topline-inner{display:flex;justify-content:space-between;gap:20px;padding:9px 0;font-size:13px}.topline a{text-decoration:none}.nav{background:rgba(255,255,255,.98);border-bottom:1px solid rgba(0,0,0,.07);position:sticky;top:0;z-index:10}.nav-inner{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:30px}.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand img{width:72px;height:68px;object-fit:contain}.brand-copy{font-weight:800;line-height:1.05}.brand-copy span{display:block;color:var(--red);font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin-top:5px}.navlinks{display:flex;align-items:center;gap:26px;font-size:14px;font-weight:700}.navlinks a{text-decoration:none}.navlinks .nav-cta{background:var(--red);color:#fff;padding:12px 17px;border-radius:999px}.mobile-call{display:none}
+    .hero{position:relative;overflow:hidden;background:var(--cream);min-height:680px;display:flex;align-items:center}.hero:after{content:"";position:absolute;inset:0 0 0 54%;background:linear-gradient(90deg,rgba(247,243,238,.85),rgba(247,243,238,0) 28%),url('https://idealhcs.com/wp-content/uploads/2022/01/positive-mother-daughter-enjoying-dramatic-view-1024x683.jpg') center/cover no-repeat}.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:52% 48%;align-items:center;padding:72px 0}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--red-dark);font-size:13px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.eyebrow:before{content:"";width:28px;height:2px;background:var(--red)}h1,h2,h3,p{margin-top:0}h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(44px,5vw,72px);line-height:1.02;letter-spacing:-.035em;margin:18px 0 22px;max-width:720px}.lede{font-size:19px;color:#445056;max-width:620px;margin-bottom:28px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 22px;border-radius:999px;text-decoration:none;font-weight:800;border:1px solid transparent}.btn-primary{background:var(--red);color:#fff;box-shadow:0 12px 24px rgba(230,52,42,.24)}.btn-secondary{background:#fff;border-color:#cfc8c2}.hero-note{font-size:13px;color:var(--muted);margin-top:18px}.trust-strip{position:relative;z-index:3;margin-top:-54px}.trust-card{display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border-radius:14px;box-shadow:var(--shadow);overflow:hidden}.trust-item{padding:25px 24px;border-right:1px solid var(--line)}.trust-item:last-child{border-right:0}.trust-item strong{display:block;font-family:Georgia,serif;font-size:20px}.trust-item span{color:var(--muted);font-size:13px}
+    section{padding:92px 0}.section-head{max-width:720px;margin-bottom:38px}.section-head h2{font-family:Georgia,serif;font-size:clamp(35px,4vw,50px);line-height:1.08;margin:12px 0 14px;letter-spacing:-.025em}.section-head p{color:var(--muted);font-size:18px}.care-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.care-card{background:#fff;border:1px solid var(--line);border-radius:15px;padding:29px;min-height:240px;transition:.2s}.care-card:hover{transform:translateY(-3px);box-shadow:0 16px 36px rgba(23,33,38,.09)}.care-icon{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:#fff0ee;color:var(--red);font-size:21px;font-weight:900}.care-card h3{font-family:Georgia,serif;font-size:25px;margin:20px 0 10px}.care-card p{color:var(--muted);font-size:15px}.care-card a{color:var(--red-dark);font-weight:800;text-decoration:none}.services{background:var(--cream)}
+    .why-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.why-photo{position:relative}.why-photo img{display:block;width:100%;height:580px;object-fit:cover;border-radius:18px}.proof-badge{position:absolute;right:-25px;bottom:28px;background:var(--ink);color:#fff;border-radius:14px;padding:20px 24px;max-width:260px;box-shadow:var(--shadow)}.proof-badge strong{font-family:Georgia,serif;font-size:25px;display:block}.why-copy h2{font-family:Georgia,serif;font-size:48px;line-height:1.08;margin:14px 0 20px}.checks{display:grid;gap:15px;margin:26px 0 30px}.check{display:grid;grid-template-columns:28px 1fr;gap:12px}.check i{font-style:normal;width:26px;height:26px;background:var(--sage);color:#2b6242;border-radius:50%;display:grid;place-items:center;font-weight:900}.check strong{display:block}.check span{color:var(--muted);font-size:14px}
+    .process{background:var(--ink);color:#fff}.process .section-head p{color:#bac3c7}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.step{border-top:1px solid #526066;padding-top:25px}.step-num{color:#ff8a82;font-weight:900;letter-spacing:.1em}.step h3{font-family:Georgia,serif;font-size:27px;margin:12px 0 10px}.step p{color:#c7d0d3}.coverage-note{margin-top:34px;padding:20px 24px;border:1px solid #526066;border-radius:12px;color:#e4e9eb}
+    .testimonial{background:#fff}.quote{max-width:920px;margin:0 auto;text-align:center}.quote-mark{font-family:Georgia,serif;color:var(--red);font-size:80px;line-height:.6}.quote blockquote{font-family:Georgia,serif;font-size:clamp(26px,3vw,40px);line-height:1.35;margin:25px 0}.quote cite{font-style:normal;color:var(--muted);font-weight:700}
+    .contact{background:var(--cream)}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:start}.contact h2{font-family:Georgia,serif;font-size:48px;line-height:1.08}.contact-list{display:grid;gap:16px;margin-top:30px}.contact-list strong{display:block}.contact-list span{color:var(--muted)}.form-card{background:#fff;border-radius:18px;padding:34px;box-shadow:var(--shadow)}.form-card h3{font-family:Georgia,serif;font-size:29px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:grid;gap:7px}.field.full{grid-column:1/-1}.field label{font-size:12px;text-transform:uppercase;letter-spacing:.08em;font-weight:800}.field input,.field select,.field textarea{border:1px solid #d7d2cc;border-radius:9px;padding:13px;background:#fff}.field textarea{min-height:90px;resize:vertical}.form-card .btn{margin-top:18px;width:100%;border:0;cursor:default}.form-note{font-size:12px;color:var(--muted);margin:12px 0 0}
+    footer{background:#11191d;color:#fff;padding:42px 0}.footer-grid{display:flex;justify-content:space-between;gap:30px;align-items:center}.footer-brand{font-family:Georgia,serif;font-size:24px}.footer-meta{text-align:right;color:#aeb9bd;font-size:13px}
+    @media(max-width:900px){.navlinks{display:none}.mobile-call{display:inline-flex}.hero{min-height:auto;padding-bottom:0}.hero:after{position:relative;display:block;inset:auto;width:100%;height:360px;background:linear-gradient(180deg,rgba(247,243,238,.1),rgba(23,33,38,.08)),url('https://idealhcs.com/wp-content/uploads/2022/01/positive-mother-daughter-enjoying-dramatic-view-1024x683.jpg') center/cover no-repeat}.hero{display:block}.hero-grid{grid-template-columns:1fr;padding:62px 0 35px}.trust-strip{margin-top:-26px}.trust-card{grid-template-columns:1fr 1fr}.trust-item:nth-child(2){border-right:0}.trust-item:nth-child(-n+2){border-bottom:1px solid var(--line)}.care-grid,.steps{grid-template-columns:1fr 1fr}.why-grid,.contact-grid{grid-template-columns:1fr;gap:45px}.proof-badge{right:18px}.why-photo img{height:480px}}
+    @media(max-width:620px){.topline-inner{justify-content:center}.topline-inner span:last-child{display:none}.topline{font-size:12px}.nav-inner{min-height:70px}.brand img{width:54px;height:52px}.brand-copy{font-size:14px}.brand-copy span{font-size:9px}.mobile-call{min-height:42px;padding:0 14px;font-size:13px}.hero-grid{padding-top:48px}.hero:after{height:280px}h1{font-size:43px}.lede{font-size:17px}.hero-actions{display:grid}.trust-card,.care-grid,.steps,.form-grid{grid-template-columns:1fr}.trust-item{border-right:0;border-bottom:1px solid var(--line)}.trust-item:last-child{border-bottom:0}section{padding:70px 0}.why-copy h2,.contact h2{font-size:38px}.why-photo img{height:390px}.proof-badge{position:relative;right:auto;bottom:auto;margin:-42px 16px 0}.field.full{grid-column:1}.footer-grid{display:grid}.footer-meta{text-align:left}.wrap,.nav-inner,.topline-inner{width:min(var(--max),calc(100% - 28px))}}
+  </style>
+</head>
+<body>
+  <div class="concept-bar">Internal homepage concept only · Not a live website · Final copy and compliance review required</div>
+  <div class="topline"><div class="topline-inner"><span>In-home care across Long Island, New York</span><span><a href="tel:6315095600">(631) 509-5600</a> &nbsp; · &nbsp; Office hours Mon–Fri, 9am–5pm</span></div></div>
+  <nav class="nav" aria-label="Primary">
+    <div class="nav-inner">
+      <a class="brand" href="#top"><img src="https://idealhcs.com/wp-content/uploads/2023/09/Ideal-Home-Logo.png" alt="Ideal Home Care logo"><div class="brand-copy">IDEAL HOME CARE<span>Dignity · Respect · Compassion</span></div></a>
+      <div class="navlinks"><a href="#care">Care options</a><a href="#why">Why Ideal</a><a href="#process">How it works</a><a href="#coverage">Medicaid & insurance</a><a class="nav-cta" href="#contact">Request a consultation</a></div>
+      <a class="btn btn-primary mobile-call" href="tel:6315095600">Call now</a>
+    </div>
+  </nav>
+
+  <main id="top">
+    <header class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Home care that starts with listening</div>
+          <h1>Trusted care, in the comfort of home.</h1>
+          <p class="lede">Medical and non-medical support for Long Island families, built around dignity, independence, and a plan that fits the person you love.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#contact">Talk to a care coordinator</a><a class="btn btn-secondary" href="tel:6315095600">Call (631) 509-5600</a></div>
+          <p class="hero-note">Not sure which service you need? Start with a conversation. Coverage and availability depend on each situation.</p>
+        </div>
+        <div aria-hidden="true"></div>
+      </div>
+    </header>
+
+    <div class="trust-strip"><div class="wrap trust-card">
+      <div class="trust-item"><strong>Over a decade</strong><span>Serving seniors and Long Island families</span></div>
+      <div class="trust-item"><strong>Care at every level</strong><span>Skilled and personal care options</span></div>
+      <div class="trust-item"><strong>Screened professionals</strong><span>Background and reference checks</span></div>
+      <div class="trust-item"><strong>24/7 services</strong><span>In-home services available year-round</span></div>
+    </div></div>
+
+    <section class="services" id="care"><div class="wrap">
+      <div class="section-head"><div class="eyebrow">Care options</div><h2>Start with what your family needs today.</h2><p>A clearer first step for families, with detailed service pages behind each path for search visibility and informed enquiries.</p></div>
+      <div class="care-grid">
+        <article class="care-card"><div class="care-icon">✚</div><h3>Skilled care</h3><p>Clinical support including skilled nursing, physical therapy, medication support, and extended services.</p><a href="#contact">Explore skilled care →</a></article>
+        <article class="care-card"><div class="care-icon">♥</div><h3>Personal care</h3><p>Everyday assistance, companion care, homemaker support, errands, and help with daily routines.</p><a href="#contact">Explore personal care →</a></article>
+        <article class="care-card" id="coverage"><div class="care-icon">✓</div><h3>Coverage guidance</h3><p>Help understanding available care routes, including New York State Medicaid eligibility and accepted insurance options.</p><a href="#contact">Ask about coverage →</a></article>
+      </div>
+    </div></section>
+
+    <section id="why"><div class="wrap why-grid">
+      <div class="why-photo"><img src="https://idealhcs.com/wp-content/uploads/2022/01/contented-senior-patient-with-kind-doctor-nursing-home-time-together-1024x683.jpg" alt="Senior receiving attentive support from a care professional"><div class="proof-badge"><strong>50+ years</strong><span>Combined professional healthcare experience across the team</span></div></div>
+      <div class="why-copy"><div class="eyebrow">Why families choose Ideal</div><h2>A care plan built around the person, not just a list of tasks.</h2><p>Ideal's public mission centers on dignity, respect, and compassion. The proposed homepage brings that promise forward and pairs it with the practical proof families need before they call.</p>
+        <div class="checks">
+          <div class="check"><i>✓</i><div><strong>Qualified care team</strong><span>Registered nurses, licensed practical nurses, caregivers, and veteran care coordinators.</span></div></div>
+          <div class="check"><i>✓</i><div><strong>A thoughtful onboarding process</strong><span>A step-by-step conversation to understand health needs, preferences, schedule, and budget.</span></div></div>
+          <div class="check"><i>✓</i><div><strong>Care that can adapt</strong><span>Plans can be revisited as a client's needs and family circumstances change.</span></div></div>
+        </div><a class="btn btn-primary" href="#contact">Discuss your care needs</a>
+      </div>
+    </div></section>
+
+    <section class="process" id="process"><div class="wrap">
+      <div class="section-head"><div class="eyebrow">A simpler first step</div><h2>From uncertainty to a clear care plan.</h2><p>The concept turns a long, mixed-purpose page into a focused family journey.</p></div>
+      <div class="steps">
+        <div class="step"><div class="step-num">01 · TALK</div><h3>Tell us what is changing</h3><p>Share the care needed, location, schedule, and any coverage questions.</p></div>
+        <div class="step"><div class="step-num">02 · PLAN</div><h3>Review the right options</h3><p>A care coordinator helps identify the appropriate next step for your situation.</p></div>
+        <div class="step"><div class="step-num">03 · BEGIN</div><h3>Build care around the person</h3><p>If Ideal is the right fit, the team develops a customized plan of care.</p></div>
+      </div>
+      <div class="coverage-note"><strong>Medicaid or insurance questions?</strong> Ideal's current site states that it accepts New York State Medicaid for eligible people and a variety of insurance. Eligibility, plan acceptance, and coverage should always be confirmed for the individual case.</div>
+    </div></section>
+
+    <section class="testimonial"><div class="wrap quote"><div class="quote-mark">“</div><blockquote>I have a very stressful life, but Ideal Home Care truly brings peace of mind. Whether I need someone for one day or an entire weekend to stay with mom, the coordinators always try to accommodate me.</blockquote><cite>Ralph D. · Laurelton, NY · Existing website testimonial</cite></div></section>
+
+    <section class="contact" id="contact"><div class="wrap contact-grid">
+      <div><div class="eyebrow">Request a consultation</div><h2>Let’s talk about what support would make life easier.</h2><p>Call the Islandia office or use the concept form to start a conversation. This mockup does not submit or store information.</p>
+        <div class="contact-list"><div><strong>Call</strong><span>(631) 509-5600</span></div><div><strong>Visit</strong><span>2950 Express Dr. South, Suite 100, Islandia, NY 11749</span></div><div><strong>Office hours</strong><span>Monday to Friday, 9:00 AM to 5:00 PM</span></div></div>
+      </div>
+      <form class="form-card" onsubmit="return false" aria-label="Non-functional concept form"><h3>Find the right care</h3><div class="form-grid">
+        <div class="field"><label for="name">Your name</label><input id="name" placeholder="Full name"></div>
+        <div class="field"><label for="phone">Phone</label><input id="phone" placeholder="Best number"></div>
+        <div class="field full"><label for="need">What support are you looking for?</label><select id="need"><option>Choose a care need</option><option>Skilled nursing or therapy</option><option>Personal or companion care</option><option>Homemaker or support services</option><option>Medicaid or insurance guidance</option><option>I am not sure yet</option></select></div>
+        <div class="field full"><label for="message">How can we help?</label><textarea id="message" placeholder="A short note about location, schedule, and care needs"></textarea></div>
+      </div><button class="btn btn-primary" type="submit">Request a conversation</button><p class="form-note">Concept only. Final form requires approved consent language, privacy handling, routing, spam protection, and accessibility testing.</p></form>
+    </div></section>
+  </main>
+  <footer><div class="wrap footer-grid"><div class="footer-brand">Ideal Home Care Services</div><div class="footer-meta">Internal concept for review only<br>Public facts sourced from idealhcs.com · Final content subject to client approval</div></div></footer>
+</body>
+</html>
